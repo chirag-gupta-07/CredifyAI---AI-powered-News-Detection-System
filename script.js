@@ -69,6 +69,7 @@ checkBtn.addEventListener("click", async () => {
         image: image ? reader.result : null,
         label: result.label || "Unknown",
         confidence: result.confidence || "N/A",
+        aisummary: result.aisummary || "N/A",
         date: new Date().toLocaleString(),
       };
 
