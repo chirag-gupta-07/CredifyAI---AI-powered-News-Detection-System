@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CredifyAI – Fake News Detector</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-gray-100 font-sans">
+  <header class="navbar">
+    <h1>🧠 CredifyAI</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <!-- Loading Bar -->
+  <div id="loadingBarContainer" class="hidden">
+    <div id="loadingBar"></div>
+  </div>
+
+
+  <main class="container">
+    <h2>Check News Credibility</h2>
+    <p class="desc">Enter news text or upload an image post to analyze its authenticity.</p>
+
+    <textarea id="textInput" placeholder="Paste your news text here..."></textarea>
+    <input type="file" id="imageInput" accept="image/*" />
+    <button id="checkBtn">Check Credibility</button>
+
+    <div id="loading" class="hidden loading">Analyzing...</div>
+
+    <div id="result" class="hidden result-box">
+      <h3>Result</h3>
+      <p><strong>Status:</strong> <span id="summary">No summary yet.</span></p>
+      <p><strong>Confidence:</strong> <span id="prob">N/A%</span></p>
+      <p><strong>AI Summary:</strong> <span id="aisummary">N/A</span></p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 CredifyAI | Empowering digital truth</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
