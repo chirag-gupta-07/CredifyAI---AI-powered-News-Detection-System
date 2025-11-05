@@ -1,5 +1,5 @@
 // CredifyAI Website Logic
-const webhookUrl = "http://localhost:5678/webhook/cc56a0e6-fb73-4a36-a1f7-8f2c206b721e"; 
+const webhookUrl = "https://webndev7890.app.n8n.cloud/webhook/50af1f68-98f3-49a8-b6cb-86dbf554c98c"; 
 
 const checkBtn = document.getElementById("checkBtn");
 const loading = document.getElementById("loading");
