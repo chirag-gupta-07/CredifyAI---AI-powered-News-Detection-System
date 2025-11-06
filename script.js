@@ -50,7 +50,7 @@ checkBtn.addEventListener("click", async () => {
           ? "⚠️ Fake or Misleading"
           : result.label === "Real"
           ? "✅ Verified as Real"
-          : "✅ Verified as Real"
+          : "Unclear"
         : "No summary available.";
 
     document.getElementById("aisummary").textContent =
